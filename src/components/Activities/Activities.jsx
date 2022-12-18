@@ -21,7 +21,6 @@ function Activities() {
 
     let data = await getDocs(activitiesCollectionRef);
     data = (data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    console.log(data);
     setActivities(data);
   };
 
