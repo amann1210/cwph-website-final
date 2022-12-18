@@ -16,16 +16,15 @@ const auth = getAuth();
 
  let [ui,setui] = useState(false)
 onAuthStateChanged(auth, (user) => {
-  console.log("State is changed")
   if(user){
     setui(true)
     // console.log(user)
-    console.log(ui)
+    
   }
   else{
     
     setui(false )
-    console.log(ui)
+   
   }
 });
 
