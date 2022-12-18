@@ -1,0 +1,66 @@
+.AddPostContainer{
+    position: relative;
+    align-items: center;    
+   /* box-sizing: border-box; */
+   border: 2px white;
+   border-radius: 4px;
+   background: transparent;
+   background-color: rgb(215, 91, 91);
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 7.5%;
+   
+   padding: 50px 0;
+     width: 50%;
+     height: 5%;
+     /* margin-bottom: 8px;
+     margin-top: 8px;
+     margin-left: 3%;
+     margin-right: 3%; */
+     align-content: center;
+     /* margin: 0 auto;  */
+     text-align: center;
+     position: relative;
+     left: 25%;
+     /* top: 5%; */
+     margin-top: 5%;
+     margin-bottom: 5%;
+     overflow-y: auto;
+     /* border: 1px solid rgb(107, 114, 12); */  
+}
+.inContainer{
+    align-items: center;
+    margin-bottom: 5%;
+}
+.imageInput{
+    align-items: justify;
+}
+.bg-image{
+    background-image: url("https://cdn.pixabay.com/photo/2013/05/12/18/55/balance-110850_960_720.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding: 180px 0px 160px 0px;
+    height: 20%;
+    border-color: aqua;
+    position: relative; 
+    top: -10px;
+    width: 100%;
+  }
+  html,body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+   }
+   .hhh{
+    height: 20px;
+    /* background-color: red; */
+    z-index: 1;
+  }
+
+  .Delete_btn{
+margin-left: 15%;
+  }

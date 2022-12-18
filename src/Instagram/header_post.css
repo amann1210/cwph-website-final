@@ -1,0 +1,12 @@
+.header_post{
+
+
+    height: 2%;
+    padding-right: 8px;
+    border-color: papayawhip;
+    border-style: double;
+}
+
+.title{
+  -ms-flex-align: center;  
+}

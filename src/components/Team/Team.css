@@ -1,0 +1,79 @@
+.team-image {
+  background-image: url("/public/images/team-bg.png");
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #f7f7f7;
+  border-color: #dee2e6 #dee2e6 #fff;
+  outline: none;
+}
+
+.about-us{
+  background-color: #f7f7f7;
+}
+
+.down-content {
+  width: 70%;
+  
+}
+
+.down-content > h4{
+  font-size: 18px;
+}
+
+.down-content > span{
+  font-size: 14px;
+}
+
+.team-item {
+  padding-left: 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.team-item > img{
+  height: 234px;
+  object-fit:cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  width: 60%;
+}
+
+.student-list{
+  margin-bottom: 25px;
+}
+
+.student-list li{
+  font-size: 20px;
+  display: inline-flex;
+  padding: 10px;
+  width: 33%;
+  justify-content: center;
+  color: #6a6a6a;
+  margin-left: -5px;
+  transition: 0.2s;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.student-list li:hover{
+  color: black;
+  transform: translateY(-5px);
+  font-size: 22px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+}
+@media screen and (max-width: 768px) {
+  .student-list li{
+    width: 50%;
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .student-list li{
+    width: 100%;
+    margin-left: -22.5px;
+  }
+}

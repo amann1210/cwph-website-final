@@ -1,0 +1,27 @@
+.about-image{
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80');
+}
+
+.about-us {
+  padding: 90px 0;
+}
+
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  box-shadow: 1px 9px 12px 0px #b3b1b1;
+  border-radius: 8px;
+}
+
+.text p {
+  font-size: 15px;
+}
+
+.about-list-item {
+  margin-bottom: 0px;
+}
+
+

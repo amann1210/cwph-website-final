@@ -1,0 +1,19 @@
+.activity_post{
+    height: 7.5%;
+    width: 10%;
+    align-self: center;
+}
+.post{
+    width: 35%;
+    height: auto; 
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 30.5%;
+}
+
+/* .DisplayDetails{
+    
+} */
