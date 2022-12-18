@@ -39,7 +39,6 @@ let Discussion = () => {
         let data = await getDocs(commentCollectionRef);
         data = (data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         data.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-        console.log(data);
         setDiscussions(data);
     };
 
