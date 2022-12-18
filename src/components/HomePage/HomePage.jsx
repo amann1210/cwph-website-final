@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react'
 import { Redirect } from "react-router-dom";
 
 const HomePage = () => {
-  const year = new Date().getFullYear();
 
   
 
@@ -25,13 +24,6 @@ const HomePage = () => {
                 }}>
                   Welcome to Center For Wellness and Positive Health
                 </h1>
-
-                
-                {/* <div className="description">
-                  When you are joyful, when you say yes to life and have fun and
-                  project positivity all around you, you become a sun in the center
-                  of every constellation, and people want to be near you!
-                </div> */}
               </div>
             </div>
           </div>
@@ -44,7 +36,7 @@ const HomePage = () => {
             <div className="col-md-12">
               <div className="section-header">
                 <div className="section-heading-content">
-                  <h2>What and why is CWPH</h2>
+                  <h2><b>What is CWPH</b> </h2>
                   <p>
                     The centre for Wellness and Positive Health aims to inculcate
                     good habits as well as infuse positive and powerful thoughts
@@ -67,109 +59,10 @@ const HomePage = () => {
           width: "79.1vw",
           height: "12px",
           borderBottom: "2px solid #CCCCCC",
-          // marginLeft: "15vw",
-          // position: "relative",
-          // alignContent: "center",
-          // display: "flex",
-          // justifyContent: "center",
-          // margin: "auto",
           margin: "37px auto",
         }}
       ></div>
       <WellnessCards />
-      {/* <div className="features-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-heading">
-                <h2>What&apos;s Happening?</h2>
-                <span>These are the events lined up for upcoming weeks.</span>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item">
-                <div className="icon">
-                  <img
-                    src="https://www.thestatesman.com/wp-content/uploads/2020/04/addiction.jpg"
-                    alt=""
-                  />
-                </div>
-                <div style={{ width: "60%" }}>
-                  <h4>Workshop on Alternative therapy</h4>
-                  <p>
-                    <CountDownTimer />
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item">
-                <div className="icon">
-                  <img
-                    src="https://www.thestatesman.com/wp-content/uploads/2020/04/addiction.jpg"
-                    alt=""
-                  />
-                </div>
-                <div style={{ width: "60%" }}>
-                  <h4>Workshop on Alternative therapy</h4>
-                  <p>
-                    <CountDownTimer />
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item">
-                <div className="icon">
-                  <img
-                    src="https://www.thestatesman.com/wp-content/uploads/2020/04/addiction.jpg"
-                    alt=""
-                  />
-                </div>
-                <div style={{ width: "60%" }}>
-                  <h4>Workshop on Alternative therapy</h4>
-                  <p>
-                    <CountDownTimer />
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="feature-item">
-                <div className="icon">
-                  <img
-                    src="https://www.thestatesman.com/wp-content/uploads/2020/04/addiction.jpg"
-                    alt=""
-                  />
-                </div>
-                <div style={{ width: "60%" }}>
-                  <h4>Workshop on Alternative therapy</h4>
-                  <p>
-                    <CountDownTimer />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div
-        className="seperation-line"
-        style={{
-          width: "79.1vw",
-          height: "12px",
-          borderBottom: "2px solid #CCCCCC",
-          // marginLeft: "15vw",
-          // position: "relative",
-          // alignContent: "center",
-          // display: "flex",
-          // justifyContent: "center",
-          // margin: "auto",
-          margin: "37px auto",
-        }}
-      ></div> */}
-      {/* Head Team Section Starts -->  */}
       <section className="team_area section_gap" id="team_area">
         <div className="container-fluid justify-content-center py-4">
           <div className="main_title text-center">
@@ -203,20 +96,6 @@ const HomePage = () => {
                   <h4>Dr. Amit Neogi</h4>
                   <p>Center Lead</p>
                   <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -236,20 +115,6 @@ const HomePage = () => {
                   <h4>Prof. A.P. Singh</h4>
                   <p>Faculty</p>
                   <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -268,20 +133,6 @@ const HomePage = () => {
                   <h4>Mr. Manuj Sharma</h4>
                   <p>Training and Placement Officer</p>
                   <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -300,20 +151,6 @@ const HomePage = () => {
                   <h4>Mr. Mukesh Jadon</h4>
                   <p>Faculty</p>
                   <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o" />
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -326,12 +163,6 @@ const HomePage = () => {
           width: "79.1vw",
           height: "12px",
           borderBottom: "2px solid #CCCCCC",
-          // marginLeft: "15vw",
-          // position: "relative",
-          // alignContent: "center",
-          // display: "flex",
-          // justifyContent: "center",
-          // margin: "auto",
           margin: "37px auto",
         }}
       ></div>
@@ -341,13 +172,6 @@ const HomePage = () => {
         style={{
           width: "79.1vw",
           height: "12px",
-          // borderBottom: "2px solid #CCCCCC",
-          // marginLeft: "15vw",
-          // position: "relative",
-          // alignContent: "center",
-          // display: "flex",
-          // justifyContent: "center",
-          // margin: "auto",
           margin: "27px auto",
         }}
       ></div>

@@ -119,11 +119,12 @@ const About = () => {
                 {/* <span>About us</span> */}
                 <h2 style={style2}>Vision Mission Statement</h2>
                 <p>
-                  The Center for Wellness and Positive Health aims to inculcate good
-                  habits thereby infusing positive and powerful thoughts among our
-                  students and others, so that they could develop a healthy body and
-                  a sound mind necessary for a complete all round holistic and moral
-                  development of their personality.
+                The center for Wellness and Positive Health aims to instill 
+                good habits as well as strong, empowering beliefs in our students 
+                and other individuals. It helps them to develop a healthy body 
+                and a sound mind which is essential for their personality&apos;s complete,
+                 holistic, and moral development.
+.
                 </p>
                 <br />
                 <p>
@@ -132,10 +133,11 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                  It is our mission to create a healthy interactive platform which
-                  will infuse positivity and contentment among students, faculty and
-                  staff in campus as well as outside leading to enthusiasm,
-                  creativity and growth
+                  Our goal is to develop a wholesome interactive
+                  platform that will foster happiness and contentment
+                  among students, faculty, and staff on campus and in
+                  the community, promoting enthusiasm, 
+                  innovation, and progress.
                 </p>
               </div>
             </div>

@@ -44,9 +44,6 @@ function App() {
             <Route exact path="/developers">
               <Developers/>
             </Route>
-            <Route exact path="/activities/:id">
-              <ActivityDetails />
-            </Route>
             <Route exact path="/login" >
               <Login setIsAuth = {setIsAuth} />
             </Route>

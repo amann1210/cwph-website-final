@@ -135,7 +135,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-   { formSubmit?<div> <h3>thankyou</h3> </div>: ContactForm()}
+   { formSubmit?<div> <h3>Thankyou</h3> </div>: ContactForm()}
       {/* Contact Us Ends */}
 
       {/* Map Starts */}

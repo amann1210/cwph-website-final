@@ -98,9 +98,9 @@ function Activities() {
                           
                         </div><br />
                            </div>: <div className="row" >
-                           <div className="col-3 "><p><b>CWPH.LNMIIT</b></p>
-                          <p>{event.username}</p></div>
-                          <div className="col-9">
+                           <div className="col-4 "><p><b>CWPH.LNMIIT</b></p>
+                          <p><b>{event.username}</b></p></div>
+                          <div className="col-8">
                           
                           <p style={{ textAlign: "justify" }} className="px-3">
                             {event.text}

@@ -261,10 +261,11 @@ function AdminPanel() {
       <div className="inContainer">
         <label>Title</label><br />
         <input type="text" placeholder="Title" value={title} onChange={(event) => setTitle(event.target.value)} />
+     <br/>
       </div>
       <div className="inContainer">
 
-      <label>Username</label>
+      <label>Collaborator</label>
         <br />
         <textarea type="text" placeholder="Collaborator" value={username} onChange={(event) => setUsername(event.target.value)} />
       <br/>
@@ -275,6 +276,7 @@ function AdminPanel() {
         <label>Details</label>
         <br />
         <textarea type="text" placeholder="Details" value={details} onChange={(event) => setDetails(event.target.value)} />
+     <br/>
       </div>
       <div className="imageInput">
         <label>Upload Image</label>
@@ -324,6 +326,7 @@ function AdminPanel() {
         <label>Name</label><br />
         <input type="text" placeholder="Name" value={title} onChange={(event) => setTitle(event.target.value)} />
       </div>
+     
       <div className="imageInput">
         <label>Upload Image</label>
         <br />
@@ -393,7 +396,7 @@ function AdminPanel() {
             <div className="col">
               
               <button type="button" className="Delete_btn" id="ADD_COORDINATOR" onClick={()=>{
-                Delete_activity({member})
+                Delete_member({member})
               }}>	
               &#10060;</button>
             </div>
