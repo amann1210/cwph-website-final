@@ -39,6 +39,7 @@ let Discussion = () => {
         let data = await getDocs(commentCollectionRef);
         data = (data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         data.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+        console.log(data);
         setDiscussions(data);
     };
 
@@ -69,7 +70,7 @@ let Discussion = () => {
     const postcomment = async () => {
   
 if(comment.length === 0){
-    alert("Not Possible to do that!!Empty Comment not allowed")
+    document.getElementById("comment-button").setAttribute('disabled', 'true');
     return
 }
 
@@ -86,11 +87,17 @@ if(comment.length === 0){
     };
 
     let handleOnChange = (e) => {
-        if (!e.target.value) {
-            console.log('empty')
-        }
-        else
-            setComment(e.target.value);
+        console.log(e.target.value)
+         if (!e.target.value) {
+           setComment(e.target.value);
+           document.getElementById("comment-button").setAttribute('disabled', 'true');
+
+         }
+         else{
+             setComment(e.target.value);
+             document.getElementById("comment-button").removeAttribute('disabled');
+         }
+
     }
 
     let postReplyHandler = async (pid) => {
@@ -430,8 +437,8 @@ if(comment.length === 0){
 
         <div>
 
-            <textarea className='text-area-container' value={comment} onChange={handleOnChange} placeholder='Place your comments here!'/>
-            <button className='comment-buttonn' onClick={postcomment}> 	
+            <textarea  className='text-area-container' value={comment} onChange={handleOnChange} placeholder='Place your comments here!'/>
+            <button id ='comment-button' className='comment-buttonn' onClick={postcomment}> 	
 &#10148;</button>       
         </div>
         <br /><br /><br />
