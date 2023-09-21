@@ -75,7 +75,7 @@ onAuthStateChanged(auth, (user) => {
 
               
               
-           {auth.currentUser != null && auth.currentUser.email == "20ucs109@lnmiit.ac.in" &&  <Nav.Link href="/createpost" style={{ fontWeight: "bold" }}>
+           {auth.currentUser != null && auth.currentUser.email == "20ucs017@lnmiit.ac.in" &&  <Nav.Link href="/createpost" style={{ fontWeight: "bold" }}>
                 Admin Panel
               </Nav.Link>}
              
