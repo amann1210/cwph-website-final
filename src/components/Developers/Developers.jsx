@@ -26,11 +26,11 @@ function Developers() {
                 <p>You can contact us on our social media and Linkedin.</p>
               </div>
             </div>
-            <Developer name="LAKSHIT SOMANI" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
-            <Developer name="LAKSHIT SOMANI" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
-            <Developer name="LAKSHIT SOMANI" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
-            <Developer name="LAKSHIT SOMANI" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
-            <Developer name="RISHABH JAIN" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://github.com/RishabhJ01" instagram ="https://www.instagram.com/reeshabhjain321/" mail="mailto:jain2001.rishabh@gmail.com" image="/images/rishabh-jain.jpg"/>
+            <Developer name="Aman Agrawl" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/amann1210" instagram ="https://www.instagram.com/__aman_1210/" mail="mailto:agrawalaman1210@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
+            <Developer name="Manan Badaya" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
+            <Developer name="Suhani Sharma" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
+            <Developer name="Lakshit Somani" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
+            <Developer name="Rishabh Jain" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://github.com/RishabhJ01" instagram ="https://www.instagram.com/reeshabhjain321/" mail="mailto:jain2001.rishabh@gmail.com" image="/images/rishabh-jain.jpg"/>
           </div>
         </div>
       </div>
