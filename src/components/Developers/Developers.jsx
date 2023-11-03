@@ -26,7 +26,7 @@ function Developers() {
                 <p>You can contact us on our social media and Linkedin.</p>
               </div>
             </div>
-            <Developer name="Aman Agrawal" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/amann1210" instagram ="https://www.instagram.com/__aman_1210/" mail="mailto:agrawalaman1210@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
+            <Developer name="Aman Agrawal" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/amann1210" instagram ="https://www.instagram.com/__aman_1210/" mail="mailto:agrawalaman1210@gmail.com" image="public/images/image.png"/>
             <Developer name="Manan Badaya" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
             <Developer name="Suhani Sharma" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
             <Developer name="Lakshit Somani" linkedIn ="https://www.linkedin.com/in/rishabh-jain-8368531a6/" gitHub ="https://www.github.com/lakshits11" instagram ="https://www.instagram.com/_.pixelated/" mail="mailto:lakshits11@gmail.com" image="/images/LakshitSomani_pic.jpg"/>
